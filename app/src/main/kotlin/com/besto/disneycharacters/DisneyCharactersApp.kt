@@ -1,4 +1,7 @@
 package com.besto.disneycharacters
 
-class DisneyCharactersApp {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class DisneyCharactersApp : Application()

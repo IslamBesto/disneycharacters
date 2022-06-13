@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DisneyCharacters"
 include ':app'
+include ':datasource:api-disney-characters'

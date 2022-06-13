@@ -1,6 +1,3 @@
-apply plugin: 'dagger.hilt.android.plugin'
-apply plugin: 'com.android.application'
-
 hilt {
     enableAggregatingTask = true
 }

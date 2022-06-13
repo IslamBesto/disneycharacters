@@ -1,7 +1,7 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub:conventional-dependencies-toml
 
 [versions]
-kotlin = "1.6.21"
+kotlin = "1.7.0"
 hilt = "2.42"
 material = "1.6.1"
 appcompat = "1.4.2"
@@ -14,9 +14,6 @@ junit5 = "1.8.2.0"
 plugin-grgit = "org.ajoberstar.grgit:grgit-gradle:4.0.2"
 plugin-android = "com.android.tools.build:gradle:7.2.1"
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-plugin-kotlinSerialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
-plugin-errorProne = "net.ltgt.gradle:gradle-errorprone-plugin:0.0.14"
-plugin-mavenPublish = "com.github.dcendents:android-maven-gradle-plugin:2.1"
 
 # ----------------------------------------
 # Google
@@ -24,12 +21,10 @@ plugin-mavenPublish = "com.github.dcendents:android-maven-gradle-plugin:2.1"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 hilt-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
-material = { module = "om.google.android.material:material", version.ref = "material" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
 # ----------------------------------------
 # AndroidX dependencies
 # ----------------------------------------
 android-core-ktx = "androidx.core:core-ktx:1.7.0"
 android-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
-# ----------------------------------------
-# Tests
-# ----------------------------------------
+

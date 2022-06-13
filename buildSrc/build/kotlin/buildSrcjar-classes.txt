@@ -1,1 +1,0 @@
-/Users/n.saidi/AndroidStudioProjects/DisneyCharacters/buildSrc/build/classes/kotlin/main/AndroidConfig.class

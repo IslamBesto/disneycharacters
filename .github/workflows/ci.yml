@@ -19,5 +19,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           ACTION_MAIL: bestogl2l@gmail.com
           ACTION_NAME: besto
+          MD_FOLDER: temp_release_notes
           OWNER: IslamBesto
           REPO_NAME: disneycharacters
+          SKIP_MD: README.md

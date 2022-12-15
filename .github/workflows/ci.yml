@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Create Release Notes
-        uses: ./
+        uses: docker://decathlon/release-notes-generator-action:2.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT_FOLDER: temp_release_notes
@@ -19,5 +19,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           ACTION_MAIL: bestogl2l@gmail.com
           ACTION_NAME: besto
+          MD_FOLDER: temp_release_notes
           OWNER: IslamBesto
           REPO_NAME: disneycharacters
+          SKIP_MD: README.md

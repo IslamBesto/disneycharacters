@@ -16,6 +16,5 @@ dependencies {
     testImplementation(libs.testing.junit)
     testImplementation(libs.testing.mockk)
     testImplementation(libs.testing.mockWebServer)
-    testImplementation(libs.kotlin.test)
     testImplementation(libs.kotlin.coroutines.test)
 }
